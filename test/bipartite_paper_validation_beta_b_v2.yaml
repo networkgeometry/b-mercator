@@ -1,0 +1,29 @@
+#### Unipartite parameters
+# Controls clustering in the S1 model
+- Beta_s: [3]
+# Exponent of the hidden degree distribution
+- gamma_s: [2.7]
+# Size of the network
+- Ns_obs: [1000]
+# Average degree
+- kmean_s: [10]
+
+### Bipartite network parameters
+# Exponent of hidden degree distribution of Type 1 nodes (nodes)
+- gamma_n: [2.7]
+# Average degree of Type 1 nodes
+- kmean_n: [10]
+# Exponent of hidden degree distributino of Type 2 nodes (features)
+- gamma_f: [2.7]
+# Number of features
+- N_f: [1000]
+# Beta for bipartite model
+- Beta_b: [1.3, 1.5, 1.7, 2, 2.2, 2.5, 2.7, 3]
+# Correlation between nodes' positions in unipartite and bipartite network
+- correlation: [0.0]
+
+### Additional parameters
+# Dimension of S^D and bipartite-S^D models
+- dimension: [1, 2, 3, 4]
+# Number of realizations
+- ntimes: 20

@@ -1,0 +1,5 @@
+build/
+.vscode/
+notebooks/.ipynb_checkpoints/
+nohup.out
+bmercator
