@@ -6,7 +6,7 @@ _Mapping bipartite networks into the multidimensional hyperbolic spaces_
 
 ### Command line executable
 
-Requirements
+Requirements:
 * A C++17 (or newer) compliant compiler
 * `cmake` >= 3.20
 * The header `unistd.h`.
@@ -16,6 +16,11 @@ Requirements
 chmod +x build.sh
 ./build.sh -b Release
 ```
+
+### Google Colab
+
+Try it in [Google Colab](https://colab.research.google.com/drive/10Jen7CHwHueZ6GkRaXUIoG6_Vk4DD5Cq?usp=sharing)
+
 
 ### Docker
 
@@ -210,6 +215,7 @@ Validates and characterizes the inferred random network ensemble. This is done b
 
 See `notebooks/paper-SI-bipartite-validation-synthetic-networks.ipynb` for some plotting examples.
 
+---
 
 ## Publications
 
