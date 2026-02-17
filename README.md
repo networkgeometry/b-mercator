@@ -8,8 +8,16 @@ _Mapping bipartite networks into the multidimensional hyperbolic spaces_
 
 Requirements:
 * A C++17 (or newer) compliant compiler
+* A Fortran compiler (`gfortran`)
 * `cmake` >= 3.20
 * The header `unistd.h`.
+
+On macOS, install required toolchains with Homebrew:
+```
+brew install gcc libomp
+```
+This project now embeds runtime search paths for both Apple Silicon (`/opt/homebrew`) and Intel (`/usr/local`) Homebrew layouts.
+For best portability, build the binary on each Mac instead of copying one prebuilt executable between machines.
 
 ```
 # Unix (Linux / MAC OS)
