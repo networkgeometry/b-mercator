@@ -8350,7 +8350,7 @@ std::vector<double> embeddingSD_t::compute_global_loglikelihoods(int dim)
 double embeddingSD_t::find_min_non_zero_value(const std::vector<double>& arr)
 {
   double minNonZero = std::numeric_limits<double>::max();
-  std::for_each(arr.begin(), arr.end(), [&minNonZero](int val) {
+  std::for_each(arr.begin(), arr.end(), [&minNonZero](double val) {
       if (val != 0 && val < minNonZero) {
           minNonZero = val;
       }
